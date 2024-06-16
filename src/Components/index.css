@@ -550,6 +550,7 @@
   height: 80px;
   justify-content: space-between;
   color: white;
+  position: relative;
 }
 .container5{
   display: flex;
@@ -611,7 +612,7 @@
   background-color: black !important;
 }
 .container4 a {
-  position : fixed;
+  position : absolute;
   left: 1rem; 
   z-index: 999999999999999;
 }
