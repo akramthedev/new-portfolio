@@ -129,13 +129,7 @@ const Navbar = () => {
         {currentText}
       </div>
       
-      <button  
-        onClick={()=>{
-          setshowElipsisPopUp(true);
-        }}
-      className={show ? "sud showsud" : "sud"}>
-        <i className="fa-solid fa-ellipsis-vertical"></i>
-      </button>
+      
     </div>
     </>
   );
