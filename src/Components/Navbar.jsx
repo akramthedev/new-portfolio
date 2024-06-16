@@ -47,6 +47,20 @@ const Navbar = () => {
     }
   }, [currentText, isTyping]);
 
+
+
+  const [scrollYYYY, setScrollY] = useState(window.scrollY);
+
+  const handleScroll = () => {
+    setScrollY(window.scrollY);
+  };useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
     <div className={ShowBlackBitch ? "ShowBlackBitch blackBitch"  : "blackBitch"} />
@@ -97,7 +111,7 @@ const Navbar = () => {
     </div>
 
 
-    <div className='navbar'>
+    <div className={scrollYYYY < 200 ? "navbar" : "navbar navbarPlusBack"}>
       <div className="uiuiuii">
       <img
         onClick={() => {
