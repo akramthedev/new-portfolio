@@ -366,7 +366,6 @@ const DivOne = () => {
             <span className="tag tag1">MERN</span>
             <span className="tag2 tag">Stripe</span>
             <span className="tag3 tag">Eden AI</span>
-            <span className="tag3 tag">UI/UX</span>
           </div>
           <div className="image">
             <img src="https://res.cloudinary.com/dqprleeyt/image/upload/v1718504687/Xplorium_t4akuw.png" alt="Example" />
