@@ -111,7 +111,7 @@ const Navbar = () => {
     </div>
 
 
-    <div className={scrollYYYY < 200 ? "navbar" : "navbar navbarPlusBack"}>
+    <div className={scrollYYYY < 100 ? "navbar" : "navbar navbarPlusBack"}>
       <div className="uiuiuii">
       <img
         onClick={() => {
