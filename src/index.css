@@ -14,4 +14,9 @@ button, input{
   outline: none;
   transition: 0.2s all ease-in-out;
 }
- 
+
+
+::-webkit-scrollbar {
+    width: 0 !important; /* Changez la largeur ici */
+    height: 0 !important; /* Pour les barres de défilement horizontales */
+}
