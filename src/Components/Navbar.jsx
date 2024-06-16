@@ -98,6 +98,7 @@ const Navbar = () => {
 
 
     <div className='navbar'>
+      <div className="uiuiuii">
       <img
         onClick={() => {
           setShowBlackBitch(true);
@@ -128,8 +129,7 @@ const Navbar = () => {
       className="spanName">
         {currentText}
       </div>
-      
-      
+      </div>
     </div>
     </>
   );
