@@ -544,8 +544,8 @@ const DivOne = () => {
       </div>
 
       <div className="container4">
-        <span>seasonedwebdev@gmail.com</span>
         <a href="https://www.linkedin.com/in/akram-elbasri" target='_blank' >Linkedin</a>
+        <span>seasonedwebdev@gmail.com</span>
       </div>
       <div className="container5">
         ©{getCurrentYear()} – All Rights Reserved
