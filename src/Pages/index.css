@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.popUp{
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+  pointer-events: all;
+  justify-content: center;
+}
+.showpopUp{
+  pointer-events: none;
+  visibility: visible;
+  opacity: 1;
+  z-index: 99999999999999999999;
+}
+
+.popUp img{
+  height: 500px;
+  width: 500px;
+  visibility: hidden;
+  opacity: 0;
+  object-fit: cover;
+  transition: 0.45s all ease-in-out;
+}
+.popUp .showImg{
+  opacity: 1;
+  visibility: visible;
+}
+
+.main{
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;  
+}
+
+.gradients{
+  position: fixed;
+  bottom: 500px;
+  right: 200px;
+  height: 200px;
+  width:  200px ;
+}
+.gradients img{
+  height: 1000px;
+  width:  1000px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s all ease-in-out;
+  transform: scaleX(-1);
+}
+
+.gradients2{
+  position: fixed;
+  top:  -200px;
+  right: 130px;
+  height: 30px;
+  width: 30px;
+}
+.gradients2 img{
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s all ease-in-out;
+  transform: rotateY(0deg);
+}
+.gradients .showImgGrad, .gradients2 .showImgGrad{
+  opacity: 1;
+  visibility: visible;
+}
+.FullNameCOntainer{
+  height: calc(100vh - 90px);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.NameX{
+  font-family: "DM Serif Display", serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  font-size: 48px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 1;
+  transition: 1s all ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  filter: blur(11.3px);
+  position: relative;
+}
+.zuorf{
+  position: absolute;
+  text-align: right;
+  right: 0;
+  height: auto;
+  font-size: 19px;
+  font-weight: 300;
+  color: #b5b5b5;
+}
+.uiuiui{
+  font-size: 19px;
+  font-weight: 300;
+  color: #b5b5b5;
+}
+.showNameX{
+  visibility: visible;
+  opacity: 1;
+  filter: blur(0);
+}
+.suçruf{
+  font-family: "DM Serif Display", serif;
+  font-size: 27px;
+  font-weight: 500;
+  color: white;
+}
+.SwipeBottom{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  margin-bottom: 200px;
+  transition: 0.6s all ease-in-out;
+}
+.showSwipeBottom{
+  opacity: 1;
+  visibility: visible;
+}
+.SwipeBottom span{
+  color: gray;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: .5rem;
+}
