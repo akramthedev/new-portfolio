@@ -395,7 +395,7 @@ const DivOne = () => {
             <span className="tag2 tag">UI/UX</span>
           </div>
           <div className="image">
-            <img src="https://akramelbasri.com/static/media/a1.45531ed954ef222ffa31.png" alt="Example" />
+            <img src="https://res.cloudinary.com/dqprleeyt/image/upload/v1699822430/Screenshot_2023-11-12_21.53.39_vg1tba.png" alt="Example" />
           </div>
           <p className="description">
             A blog platform, you'll not only have a platform to showcase your writing skills but also an opportunity to earn income doing what you love.
