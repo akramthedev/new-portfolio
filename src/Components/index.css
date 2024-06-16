@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     position: fixed;
-    background-color: black !important;
+  background-color: transparent !important;
     z-index: 9999999;
 }
 
@@ -605,4 +605,8 @@
 .uiuiuii .spanName{
   position: absolute !important;
   left: 14px !important;
+}
+
+.navbarPlusBack{
+  background-color: black !important;
 }
