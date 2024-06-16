@@ -20,7 +20,7 @@
     display: flex;
     top: 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: fixed;
     background-color: black !important;
     z-index: 9999999;
@@ -32,8 +32,6 @@
     transition: 0.3s all ease-in-out;
     height: 130px;
     width:  130px;
-    position: absolute;
-    left: -2.18rem;
 }
 
 .navbar .showImgLogoNav{
@@ -79,8 +77,6 @@
     color: white;
     font-size: 19px;
     z-index: 3;
-    position: absolute;
-    left: 3.55rem;
     font-weight: 500;
     margin-top: 0.2rem;
     font-family: "DM Serif Display", serif;
@@ -593,4 +589,20 @@
 .containerLink a{
   text-decoration: none;
   color: white;
+}
+
+.uiuiuii{
+  height: 100%;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  position: relative !important;
+}
+.uiuiuii img{
+  left: -67px !important;
+  position: absolute !important;
+}
+.uiuiuii .spanName{
+  position: absolute !important;
+  left: 14px !important;
 }
