@@ -378,8 +378,7 @@ const DivOne = () => {
           <button 
             className='learnMore'
           >
-            Details page&nbsp;&nbsp;
-            <FaAngleDoubleRight />
+            Level: Master
           </button>
         </div>
 
@@ -404,8 +403,7 @@ const DivOne = () => {
           <button 
             className='learnMore'
           >
-            Details page&nbsp;&nbsp;
-            <FaAngleDoubleRight />
+            Level: Expert
           </button>
         </div>
 
@@ -431,8 +429,7 @@ const DivOne = () => {
           <button 
             className='learnMore'
           >
-            Details page&nbsp;&nbsp;
-            <FaAngleDoubleRight />
+            Level: Intermediate
           </button>
         </div>
 
@@ -459,8 +456,7 @@ const DivOne = () => {
           <button 
             className='learnMore'
           >
-            Details page&nbsp;&nbsp;
-            <FaAngleDoubleRight />
+            Level: Expert
           </button>
         </div>
 
@@ -485,8 +481,7 @@ const DivOne = () => {
           <button 
             className='learnMore'
           >
-            Details page&nbsp;&nbsp;
-            <FaAngleDoubleRight />
+            Level: Intermediate
           </button>
         </div>
 
@@ -510,8 +505,7 @@ const DivOne = () => {
           <button 
             className='learnMore'
           >
-            Details page&nbsp;&nbsp;
-            <FaAngleDoubleRight />
+            Level: Intermediate
           </button>
         </div>
 
