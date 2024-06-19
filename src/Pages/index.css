@@ -13,6 +13,8 @@
   transition: all 0.5s ease-in-out;
   display: flex;
   align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 0;
   pointer-events: all;
   justify-content: center;
