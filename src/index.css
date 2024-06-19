@@ -21,3 +21,15 @@ button, input{
     width: 0 !important; /* Changez la largeur ici */
     height: 0 !important; /* Pour les barres de défilement horizontales */
 }
+
+
+.App{
+  background-color: black;
+  width: 100%;
+}
+
+.App2{
+  max-width: 810px;
+  margin: 0 auto;
+}
+
